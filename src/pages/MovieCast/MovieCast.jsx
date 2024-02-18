@@ -28,8 +28,10 @@ export default function MovieCast() {
             alt={name}
             width="80"
           />
-          <p>{name}</p>
-          <p>Character: {character}</p>
+          <div>
+            <p>{name}</p>
+            <p>Character: {character}</p>
+          </div>
         </li>
       ))}{' '}
     </ul>

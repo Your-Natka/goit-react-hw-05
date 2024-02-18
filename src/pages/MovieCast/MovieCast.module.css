@@ -13,7 +13,6 @@
 }
 .descBlock {
   display: flex;
-  flex-direction: row;
   gap: 20px;
 }
 .overview,
@@ -23,7 +22,6 @@
 }
 .list {
   margin: 30px;
-  display: flex;
   gap: 5px;
   list-style-type: none;
 }
